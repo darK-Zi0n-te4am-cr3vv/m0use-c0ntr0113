@@ -1,8 +1,0 @@
-INTSTYLE=ise
-INFILE=X:\m0use-c0ntr0113\chupong\chupong\Mouse_Test.ncd
-OUTFILE=X:\m0use-c0ntr0113\chupong\chupong\Mouse_Test.bit
-FAMILY=Spartan3A and Spartan3AN
-PART=xc3s700an-4fgg484
-WORKINGDIR=X:\m0use-c0ntr0113\chupong\chupong
-LICENSE=ISE
-USER_INFO=No user information available.
