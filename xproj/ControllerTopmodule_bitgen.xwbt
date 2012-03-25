@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=D:\Projects\m0use-c0ntr0113\xproj\ControllerTopmodule.ncd
+OUTFILE=D:\Projects\m0use-c0ntr0113\xproj\ControllerTopmodule.bit
+FAMILY=Spartan3A and Spartan3AN
+PART=xc3s700an-5fgg484
+WORKINGDIR=D:\Projects\m0use-c0ntr0113\xproj
+LICENSE=ISE
+USER_INFO=No user information available.

@@ -5,15 +5,26 @@
 <Project version="1" owner="projectmgr" name="xproj" >
    <!--This is an ISE project configuration file.-->
    <ItemView engineview="SynthesisOnly" guiview="Source" compilemode="AutoCompile" >
-      <ClosedNodes/>
+      <ClosedNodes>
+         <ClosedNode>/ClkBench</ClosedNode>
+         <ClosedNode>/PS2BpBench</ClosedNode>
+         <ClosedNode>/PS2OpencoresVersionBench</ClosedNode>
+         <ClosedNode>/PS2Tx</ClosedNode>
+         <ClosedNode>/PS2TxBench</ClosedNode>
+         <ClosedNode>/PS2TxShiftRegisterBench</ClosedNode>
+         <ClosedNode>/TimerBench</ClosedNode>
+         <ClosedNode>/clk_bench</ClosedNode>
+         <ClosedNode>/ps2_bp_test</ClosedNode>
+         <ClosedNode>/ps2_tx_sr_bench</ClosedNode>
+      </ClosedNodes>
       <SelectedItems>
-         <SelectedItem>PS2Tx (D:/Projects/m0use-c0ntr0113/xproj/src/ps2/ps2_tx.v)</SelectedItem>
+         <SelectedItem>ClkBench (D:/Projects/m0use-c0ntr0113/xproj/src/benches/ClkBench.v)</SelectedItem>
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
       <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000202000000010000000100000064000000f8000000020000000000000000000000000000000064ffffffff000000810000000000000002000000f80000000100000000000000000000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
-      <CurrentItem>PS2Tx (D:/Projects/m0use-c0ntr0113/xproj/src/ps2/ps2_tx.v)</CurrentItem>
+      <CurrentItem>ClkBench (D:/Projects/m0use-c0ntr0113/xproj/src/benches/ClkBench.v)</CurrentItem>
    </ItemView>
    <ItemView engineview="SynthesisOnly" sourcetype="" guiview="Process" >
       <ClosedNodes>
@@ -37,9 +48,9 @@
       <SelectedItems/>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000000000000001000000000000000000000000000000000000028e000000040101000100000000000000000000000064ffffffff000000810000000000000004000000630000000100000000000000240000000100000000000000660000000100000000000001a10000000100000000</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000000000000001000000000000000000000000000000000000027d000000040101000100000000000000000000000064ffffffff000000810000000000000004000000630000000100000000000000240000000100000000000000660000000100000000000001900000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
-      <CurrentItem>timer.v</CurrentItem>
+      <CurrentItem>Clk.v</CurrentItem>
    </ItemView>
    <ItemView guiview="Library" >
       <ClosedNodes>
@@ -70,21 +81,28 @@
       <CurrentItem></CurrentItem>
    </ItemView>
    <SourceProcessView>000000ff00000000000000020000011b0000011b01000000050100000002</SourceProcessView>
-   <CurrentView>Behavioral Simulation</CurrentView>
+   <CurrentView>Implementation</CurrentView>
    <ItemView engineview="BehavioralSim" guiview="Source" compilemode="AutoCompile" >
       <ClosedNodes>
-         <ClosedNode>/PS2TxBench/uut - PS2Tx</ClosedNode>
+         <ClosedNode>/ClkBench</ClosedNode>
+         <ClosedNode>/PS2BpBench</ClosedNode>
+         <ClosedNode>/PS2OpencoresVersionBench</ClosedNode>
+         <ClosedNode>/PS2TxBench</ClosedNode>
+         <ClosedNode>/PS2TxShiftRegisterBench</ClosedNode>
          <ClosedNode>/TimerFixture</ClosedNode>
          <ClosedNode>/clk_bench</ClosedNode>
+         <ClosedNode>/ps2_bp_test</ClosedNode>
+         <ClosedNode>/ps2_chupong_test</ClosedNode>
+         <ClosedNode>/ps2_tx_sr_bench</ClosedNode>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem>PS2TxBench (D:/Projects/m0use-c0ntr0113/xproj/src/tests/ps2_tx_bench.v)</SelectedItem>
+         <SelectedItem>Automatic `includes</SelectedItem>
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000202000000010000000100000064000000dd000000020000000000000000000000000000000064ffffffff000000810000000000000002000000dd0000000100000000000000000000000100000000</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000010000000000000000000000000000000002020000000100000001000000640000017e000000020000000000000000000000000000000064ffffffff0000008100000000000000020000017e0000000100000000000000000000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
-      <CurrentItem>PS2TxBench (D:/Projects/m0use-c0ntr0113/xproj/src/tests/ps2_tx_bench.v)</CurrentItem>
+      <CurrentItem>Automatic `includes</CurrentItem>
    </ItemView>
    <ItemView engineview="BehavioralSim" sourcetype="" guiview="Process" >
       <ClosedNodes>
@@ -100,6 +118,17 @@
       <CurrentItem>Add Existing Source</CurrentItem>
    </ItemView>
    <ItemView engineview="BehavioralSim" sourcetype="DESUT_VERILOG" guiview="Process" >
+      <ClosedNodes/>
+      <SelectedItems>
+         <SelectedItem>Add Existing Source</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000f8000000010000000100000000000000000000000064ffffffff000000810000000000000001000000f80000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>Add Existing Source</CurrentItem>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="DESUT_BMM" guiview="Process" >
       <ClosedNodes/>
       <SelectedItems>
          <SelectedItem></SelectedItem>

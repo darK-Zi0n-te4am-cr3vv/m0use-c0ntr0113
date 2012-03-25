@@ -16,11 +16,27 @@ module PS2Tx
 	input wire Write,
 	input wire [7:0] Data,
 	
-	output reg Done,
-	output wire Idle,
+	// debug purposes
+	//output wire [7:0] State,
 	
-	output wire [7:0] State
+	output reg Done,
+	output wire Idle	
+
 );
+
+/* States */
+`define STATE_WIDTH 7:0
+localparam [`STATE_WIDTH]
+	st_idle					= 0,
+	st_tt_await				= 1,
+	st_begin_transmit		= 2,
+	st_set_start_bit		= 3,
+	st_await_device_ack	= 4,
+	st_transmit_bits		= 5,
+	st_set_done				= 6;
+
+reg [`STATE_WIDTH] c_state, n_state;
+
 
 wire [10:0] data_i;
 
@@ -31,6 +47,7 @@ PS2TxByteParity bp_logic
 );
 
 wire shift_en;
+reg ps2c_out, ps2c_z;
 wire ps2d_out;
 
 PS2TxShiftreg shift_r 
@@ -78,21 +95,6 @@ Timer hold_tmr
 
 
 /* Main state machine */
-
-/* States */
-`define STATE_WIDTH 7:0
-reg [`STATE_WIDTH] c_state, n_state;
-localparam [`STATE_WIDTH]
-	st_idle					= 0,
-	st_tt_await				= 1,
-	st_begin_transmit		= 2,
-	st_set_start_bit		= 3,
-	st_await_device_ack	= 4,
-	st_transmit_bits		= 5,
-	st_set_done				= 6;
-	
-	
-reg [3:0] b_trans;
 
 always @(posedge PS2Clk)
 begin
@@ -158,12 +160,13 @@ end
 
 /* Idle & State */
 assign Idle = c_state == st_idle;
-assign State = c_state;
+
+// debug purposes
+//assign State = c_state;
 
 
 /* PS/2 lines and tri-state logic */
 wire ps2d_z;
-reg ps2c_out, ps2c_z;
 
 assign PS2Clk = ps2c_z ? 1'bZ : ps2c_out;
 assign PS2Data = ps2d_z ? 1'bZ : ps2d_out;
