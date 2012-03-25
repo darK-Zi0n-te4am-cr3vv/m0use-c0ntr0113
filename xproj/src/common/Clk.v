@@ -1,5 +1,10 @@
 `timescale 1ns / 1ps
 
+/*
+	50 Mhz clock generator for benches
+	(c) C.c, DZTC 2012
+*/
+
 module Clk
 (
 	output reg Clk

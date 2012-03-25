@@ -1,5 +1,10 @@
 `timescale 1ns / 1ps
 
+/*
+	PS/2 Transmission module
+	(c) C.c, DZTC 2012
+*/
+
 module PS2Tx
 (
 	inout wire PS2Clk,

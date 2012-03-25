@@ -1,5 +1,10 @@
 `timescale 1ns / 1ps
 
+/*
+	PS/2 Tx output shift register
+	(c) C.c, DZTC 2012
+*/
+
 module PS2TxShiftreg
 (
 	input wire Write,
