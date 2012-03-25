@@ -74,6 +74,11 @@
       <association xil_pn:name="BehavioralSimulation"/>
       <association xil_pn:name="Implementation"/>
     </file>
+    <file xil_pn:name="src/tests/PS2Test.bmm" xil_pn:type="FILE_BMM"/>
+    <file xil_pn:name="src/tests/PS2Test.v" xil_pn:type="FILE_VERILOG">
+      <association xil_pn:name="BehavioralSimulation"/>
+      <association xil_pn:name="Implementation"/>
+    </file>
   </files>
 
   <properties>
@@ -386,6 +391,7 @@
 
   <bindings>
     <binding xil_pn:location="/ControllerTopmodule" xil_pn:name="src/cfg/map.ucf"/>
+    <binding xil_pn:location="/ControllerTopmodule" xil_pn:name="src/tests/PS2Test.bmm"/>
   </bindings>
 
   <libraries/>
