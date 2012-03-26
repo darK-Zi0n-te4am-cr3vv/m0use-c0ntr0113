@@ -8,33 +8,41 @@ module ControllerTopmodule
 	inout wire PS2_CLK,
 	inout wire PS2_DATA,
 	
-	output reg [7:0] LED
+	output wire [7:0] LED
 );
 
 wire reset;
 assign reset = BTN_WEST;
 
-/* just playing with LED's to make sure that map is ok */
-
-reg [15:0] c_counter;
-
-always @(posedge CLK_50MHZ, posedge reset)
-begin
-	if (reset)
-	begin
-		c_counter <= 0;
-		LED <= 8'hEA;
-	end
+// register declarations
+	wire LeftButton;
+	wire RightButton;
+	wire [8:0] XMovement;
+	wire [8:0] YMovement;
 	
-	else begin 
-		c_counter <= c_counter - 1;
+	// Instantiate the module
+	ps2_mouse_interface mouse 
+	(
+		.clk(CLK_50MHZ), 
+		.reset(reset),
+		.ps2_clk(PS2_CLK), 
+		.ps2_data(PS2_DATA), 
+		.left_button(LeftButton), 
+		.right_button(RightButton), 
+		.x_increment(XMovement), 
+		.y_increment(YMovement)
+	);
+
 	
-		if (c_counter == 0)
-		begin
-			c_counter <= 50000;
-			LED <= (LED << 1) + LED[7];
-		end
-	end
-end
+	assign LED[0] = RightButton;
+	assign LED[1] = LeftButton;
+	
+	assign LED[2] = XMovement[0];
+	assign LED[3] = XMovement[1];
+	assign LED[4] = XMovement[2];
+	
+	assign LED[5] = YMovement[0];
+	assign LED[6] = YMovement[1];
+	assign LED[7] = YMovement[2];
 
 endmodule
