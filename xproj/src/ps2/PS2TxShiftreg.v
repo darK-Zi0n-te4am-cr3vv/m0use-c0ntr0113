@@ -19,19 +19,18 @@ module PS2TxShiftreg
 reg [10:0] _data; 
 reg [3:0] b_shift;
 
-always @(posedge ShiftClk)
+always @(posedge ShiftClk or posedge Write)
 begin
+	if (Write)
+	begin
+		_data = Data;
+		b_shift = 0;
+	end
+	else 
 	if (ShiftEn & !Done)
 	begin
 		b_shift = b_shift + 1;
 	end
-end
-
-
-always @(posedge Write)
-begin
-	_data = Data;
-	b_shift = 0;
 end
 
 initial begin

@@ -52,6 +52,7 @@ end
 always @*
 begin
 	n_state = c_state;
+	//Q = c_state;
 	wr_ps2 = 1'b0;
 	
 	case (c_state)

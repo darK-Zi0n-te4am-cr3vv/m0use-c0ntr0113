@@ -60,7 +60,9 @@ PS2TxShiftreg shift_r
 	.ShiftClk(PS2Clk)
 );
 
-always @(posedge Clk, posedge Reset or posedge Write)
+always @(posedge Clk, 
+		posedge Reset 
+		or posedge Write )
 begin
 	if (Reset)
 	begin
@@ -72,7 +74,13 @@ begin
 		c_state <= st_begin_transmit;
 	end
 	
-	else c_state <= n_state;
+	else if (PS2Clk)
+	begin
+		if (c_state == st_await_device_ack)
+		begin
+			c_state <= st_set_done;
+		end
+	end else c_state <= n_state;
 end
 
 
@@ -96,13 +104,6 @@ Timer hold_tmr
 
 /* Main state machine */
 
-always @(posedge PS2Clk)
-begin
-	if (c_state == st_await_device_ack)
-	begin
-		c_state <= st_set_done;
-	end
-end
 
 always @*
 begin
