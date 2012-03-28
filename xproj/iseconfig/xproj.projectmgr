@@ -8,6 +8,7 @@
       <ClosedNodes>
          <ClosedNodesVersion>2</ClosedNodesVersion>
          <ClosedNode>/ClkBench X:|Git Repos|m0use-c0ntr0113|xproj|src|benches|ClkBench.v</ClosedNode>
+         <ClosedNode>/ControllerTopmodule X:|Git Repos|m0use-c0ntr0113|xproj|src|ControllerTopmodule.v/ps2 - PS2Test/ps2 - PS2/tx - PS2Tx</ClosedNode>
          <ClosedNode>/PS2BpBench X:|Git Repos|m0use-c0ntr0113|xproj|src|benches|PS2BpBench.v</ClosedNode>
          <ClosedNode>/PS2Test X:|Git Repos|m0use-c0ntr0113|xproj|src|tests|PS2Test.v/ps2 - PS2</ClosedNode>
          <ClosedNode>/PS2TxBench X:|Git Repos|m0use-c0ntr0113|xproj|src|benches|PS2TxBench.v</ClosedNode>
@@ -74,7 +75,7 @@
       <SelectedItems>
          <SelectedItem>Generate Programming File</SelectedItem>
       </SelectedItems>
-      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="vertical" >3</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
       <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000f0000000010000000100000000000000000000000064ffffffff000000810000000000000001000000f00000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
@@ -145,12 +146,12 @@
          <ClosedNode>User Constraints</ClosedNode>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem/>
+         <SelectedItem></SelectedItem>
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000100000000010000000100000000000000000000000064ffffffff000000810000000000000001000001000000000100000000</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000101000000010000000100000000000000000000000064ffffffff000000810000000000000001000001010000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
-      <CurrentItem/>
+      <CurrentItem></CurrentItem>
    </ItemView>
 </Project>
