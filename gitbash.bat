@@ -7,5 +7,3 @@ if exist "C:\Program Files\Git\bin\sh.exe" (
 	rem For KIRUSHA's computer
 	cmd.exe /c "d:\Program Files (x86)\Git\bin\sh.exe" --login -i
 )
-
-pause
