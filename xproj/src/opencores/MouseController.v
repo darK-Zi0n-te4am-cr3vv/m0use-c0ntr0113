@@ -62,6 +62,7 @@ wire m_left_button, m_right_button, m_middle_button;
 wire [8:0] m_x_increment, m_y_increment;
 wire m_data_ready;
 wire data_ready = m_data_ready & !write_i;
+
 reg m_read;
 
 /* m_status */
@@ -79,8 +80,10 @@ assign m_status[31:6] = 0;
 /* pos_x / pos_y */
 reg [31:0] pos_x, pos_y;
 
-/* pos_x / pos_y */
+/* scale */
 reg [7:0] scale_x, scale_y;
+wire [31:0] x_increment = {{23{m_x_increment[8]}},m_x_increment} << scale_x;
+wire [31:0] y_increment = {{23{m_y_increment[8]}},m_y_increment} << scale_y;
 
 /* reading assigments */
 assign data_i = r_pos_x   ? pos_x :
@@ -100,8 +103,8 @@ always @(posedge Reset,
 begin
 	if (Reset)
 	begin
-		scale_x <= 8'h01;
-		scale_y <= 8'h01;
+		scale_x <= 8'h00;
+		scale_y <= 8'h00;
 		
 		pos_x <= 32'h00000000;
 		pos_y <= 32'h00000000;
@@ -119,12 +122,9 @@ begin
 	
 	else if (data_ready)
 	begin
-		pos_x <= pos_x + m_x_increment[8] ? -(scale_x * (9'b000000000 - m_x_increment)) : (scale_x * m_x_increment);
-		pos_y <= pos_y + m_y_increment[8] ? -(scale_y * (9'b000000000 - m_y_increment)) : (scale_y * m_y_increment);
-		
-		//pos_x <= {23'b00000000000000000000000, m_x_increment };
-		//pos_y <= {23'b00000000000000000000000, m_y_increment };
-			
+		pos_x <= pos_x + x_increment;
+		pos_y <= pos_y + y_increment;
+	
 		m_read <= 1'b1;
 	end
 end
