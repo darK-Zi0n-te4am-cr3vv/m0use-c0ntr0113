@@ -1,5 +1,10 @@
 `timescale 1ns / 1ps
 
+/*
+	wrapper for 
+	(c) C.c, DZTC 2012
+*/
+
 module MouseController
 (
 	input wire Clk,
@@ -63,7 +68,7 @@ wire [8:0] m_x_increment, m_y_increment;
 wire m_data_ready;
 wire data_ready = m_data_ready & !write_i;
 
-reg m_read;
+//reg m_read;
 
 /* m_status */
 
@@ -88,11 +93,11 @@ wire [31:0] y_increment = {{23{m_y_increment[8]}},m_y_increment} << scale_y;
 /* reading assigments */
 assign data_i = r_pos_x   ? pos_x :
                 r_pos_y   ? pos_y :
-					 r_state   ? m_status :
-					 r_scale_x ? scale_x :
-					 r_scale_y ? scale_y : 
-					
-					 32'h00000000
+				r_state   ? m_status :
+				r_scale_x ? scale_x :
+				r_scale_y ? scale_y : 
+	
+				32'h00000000
 ;
 					 
 
@@ -109,7 +114,7 @@ begin
 		pos_x <= 32'h00000000;
 		pos_y <= 32'h00000000;
 		
-		m_read <= 1'b1;
+		//m_read <= 1'b1;
 	end
 	
 	else if (write_i)
@@ -125,9 +130,11 @@ begin
 		pos_x <= pos_x + x_increment;
 		pos_y <= pos_y + y_increment;
 	
-		m_read <= 1'b1;
+		//m_read <= 1'b1;
 	end
 end
+
+localparam m_read = 1;
 
 ps2_mouse_interface ps2
 (
@@ -143,6 +150,7 @@ ps2_mouse_interface ps2
 	.y_increment(m_y_increment),
 	.data_ready(m_data_ready),
 	.read(m_read)
+	//.read(m_read)
 );
 
 endmodule
