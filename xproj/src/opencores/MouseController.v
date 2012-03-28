@@ -1,7 +1,7 @@
 `timescale 1ns / 1ps
 
 /*
-	wrapper for 
+	wrapper for ps2_mouse_interface
 	(c) C.c, DZTC 2012
 */
 
