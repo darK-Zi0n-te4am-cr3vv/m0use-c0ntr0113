@@ -7,23 +7,31 @@
    <ItemView engineview="SynthesisOnly" guiview="Source" compilemode="AutoCompile" >
       <ClosedNodes>
          <ClosedNodesVersion>2</ClosedNodesVersion>
+         <ClosedNode>/ClkBench E:|Git Repos|m0use-c0ntr0113|xproj|src|benches|ClkBench.v</ClosedNode>
          <ClosedNode>/ClkBench X:|Git Repos|m0use-c0ntr0113|xproj|src|benches|ClkBench.v</ClosedNode>
+         <ClosedNode>/ControllerTopmodule E:|Git Repos|m0use-c0ntr0113|xproj|src|ControllerTopmodule.v/mc - MouseController</ClosedNode>
          <ClosedNode>/ControllerTopmodule X:|Git Repos|m0use-c0ntr0113|xproj|src|ControllerTopmodule.v/ps2 - PS2Test</ClosedNode>
          <ClosedNode>/ControllerTopmodule X:|Git Repos|m0use-c0ntr0113|xproj|src|ControllerTopmodule.v/ps2 - PS2Test/ps2 - PS2/tx - PS2Tx</ClosedNode>
+         <ClosedNode>/PS2BpBench E:|Git Repos|m0use-c0ntr0113|xproj|src|benches|PS2BpBench.v</ClosedNode>
          <ClosedNode>/PS2BpBench X:|Git Repos|m0use-c0ntr0113|xproj|src|benches|PS2BpBench.v</ClosedNode>
+         <ClosedNode>/PS2OpencoresTest E:|Git Repos|m0use-c0ntr0113|xproj|src|tests|PS2OpencoresTest.v</ClosedNode>
+         <ClosedNode>/PS2OpencoresVersionBench E:|Git Repos|m0use-c0ntr0113|xproj|src|benches|PS2OpencoresVersionBench.v</ClosedNode>
          <ClosedNode>/PS2OpencoresVersionBench X:|Git Repos|m0use-c0ntr0113|xproj|src|benches|PS2OpencoresVersionBench.v</ClosedNode>
+         <ClosedNode>/PS2Test E:|Git Repos|m0use-c0ntr0113|xproj|src|tests|PS2Test.v</ClosedNode>
          <ClosedNode>/PS2Test X:|Git Repos|m0use-c0ntr0113|xproj|src|tests|PS2Test.v/ps2 - PS2</ClosedNode>
+         <ClosedNode>/PS2TxBench E:|Git Repos|m0use-c0ntr0113|xproj|src|benches|PS2TxBench.v</ClosedNode>
          <ClosedNode>/PS2TxBench X:|Git Repos|m0use-c0ntr0113|xproj|src|benches|PS2TxBench.v</ClosedNode>
+         <ClosedNode>/PS2TxShiftRegisterBench E:|Git Repos|m0use-c0ntr0113|xproj|src|benches|PS2TxShiftRegisterBench.v</ClosedNode>
          <ClosedNode>/PS2TxShiftRegisterBench X:|Git Repos|m0use-c0ntr0113|xproj|src|benches|PS2TxShiftRegisterBench.v</ClosedNode>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem>ControllerTopmodule (X:/Git Repos/m0use-c0ntr0113/xproj/src/ControllerTopmodule.v)</SelectedItem>
+         <SelectedItem>ControllerTopmodule (E:/Git Repos/m0use-c0ntr0113/xproj/src/ControllerTopmodule.v)</SelectedItem>
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
       <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000202000000010000000100000064000000f8000000020000000000000000000000000000000064ffffffff000000810000000000000002000000f80000000100000000000000000000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
-      <CurrentItem>ControllerTopmodule (X:/Git Repos/m0use-c0ntr0113/xproj/src/ControllerTopmodule.v)</CurrentItem>
+      <CurrentItem>ControllerTopmodule (E:/Git Repos/m0use-c0ntr0113/xproj/src/ControllerTopmodule.v)</CurrentItem>
    </ItemView>
    <ItemView engineview="SynthesisOnly" sourcetype="" guiview="Process" >
       <ClosedNodes>
@@ -35,13 +43,13 @@
          <ClosedNode>User Constraints</ClosedNode>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem></SelectedItem>
+         <SelectedItem/>
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000101000000010000000100000000000000000000000064ffffffff000000810000000000000001000001010000000100000000</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000ef000000010000000100000000000000000000000064ffffffff000000810000000000000001000000ef0000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
-      <CurrentItem></CurrentItem>
+      <CurrentItem/>
    </ItemView>
    <ItemView guiview="File" >
       <ClosedNodes>
@@ -50,7 +58,7 @@
       <SelectedItems/>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000000000000010000000000000000000000000000000000000151000000040101000100000000000000000000000064ffffffff000000810000000000000004000000630000000100000000000000240000000100000000000000660000000100000000000000640000000100000000</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000000000000001000000000000000000000000000000000000027d000000040101000100000000000000000000000064ffffffff000000810000000000000004000000630000000100000000000000240000000100000000000000660000000100000000000001900000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
       <CurrentItem>Clk.v</CurrentItem>
    </ItemView>
@@ -61,7 +69,7 @@
       <SelectedItems/>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000000000000000100000000000000000000000000000000000000f0000000010001000100000000000000000000000064ffffffff000000810000000000000001000000f00000000100000000</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000000000000000100000000000000000000000000000000000000f8000000010001000100000000000000000000000064ffffffff000000810000000000000001000000f80000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
       <CurrentItem>work</CurrentItem>
    </ItemView>
@@ -74,61 +82,64 @@
          <ClosedNode>User Constraints</ClosedNode>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem>Generate Programming File</SelectedItem>
-      </SelectedItems>
-      <ScrollbarPosition orientation="vertical" >2</ScrollbarPosition>
-      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000f0000000010000000100000000000000000000000064ffffffff000000810000000000000001000000f00000000100000000</ViewHeaderState>
-      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
-      <CurrentItem>Generate Programming File</CurrentItem>
-   </ItemView>
-   <SourceProcessView>000000ff00000000000000020000011b0000011b01000000050100000002</SourceProcessView>
-   <CurrentView>Implementation</CurrentView>
-   <ItemView engineview="BehavioralSim" guiview="Source" compilemode="AutoCompile" >
-      <ClosedNodes>
-         <ClosedNode>/ClkBench</ClosedNode>
-         <ClosedNode>/PS2BpBench</ClosedNode>
-         <ClosedNode>/PS2OpencoresVersionBench</ClosedNode>
-         <ClosedNode>/PS2TxBench</ClosedNode>
-         <ClosedNode>/PS2TxShiftRegisterBench</ClosedNode>
-         <ClosedNode>/TimerFixture</ClosedNode>
-         <ClosedNode>/clk_bench</ClosedNode>
-         <ClosedNode>/ps2_bp_test</ClosedNode>
-         <ClosedNode>/ps2_chupong_test</ClosedNode>
-         <ClosedNode>/ps2_tx_sr_bench</ClosedNode>
-      </ClosedNodes>
-      <SelectedItems>
-         <SelectedItem>Automatic `includes</SelectedItem>
+         <SelectedItem>Synthesize - XST</SelectedItem>
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000010000000000000000000000000000000002020000000100000001000000640000017e000000020000000000000000000000000000000064ffffffff0000008100000000000000020000017e0000000100000000000000000000000100000000</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000ef000000010000000100000000000000000000000064ffffffff000000810000000000000001000000ef0000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
-      <CurrentItem>Automatic `includes</CurrentItem>
+      <CurrentItem>Synthesize - XST</CurrentItem>
+   </ItemView>
+   <SourceProcessView>000000ff00000000000000020000011b0000011b01000000050100000002</SourceProcessView>
+   <CurrentView>Behavioral Simulation</CurrentView>
+   <ItemView engineview="BehavioralSim" guiview="Source" compilemode="AutoCompile" >
+      <ClosedNodes>
+         <ClosedNodesVersion>2</ClosedNodesVersion>
+         <ClosedNode></ClosedNode>
+         <ClosedNode>/ClkBench E:|Git Repos|m0use-c0ntr0113|xproj|src|benches|ClkBench.v</ClosedNode>
+         <ClosedNode>/ControllerTopmodule E:|Git Repos|m0use-c0ntr0113|xproj|src|ControllerTopmodule.v</ClosedNode>
+         <ClosedNode>/PS2BpBench E:|Git Repos|m0use-c0ntr0113|xproj|src|benches|PS2BpBench.v</ClosedNode>
+         <ClosedNode>/PS2OpencoresTest E:|Git Repos|m0use-c0ntr0113|xproj|src|tests|PS2OpencoresTest.v</ClosedNode>
+         <ClosedNode>/PS2OpencoresVersionBench E:|Git Repos|m0use-c0ntr0113|xproj|src|benches|PS2OpencoresVersionBench.v</ClosedNode>
+         <ClosedNode>/PS2Test E:|Git Repos|m0use-c0ntr0113|xproj|src|tests|PS2Test.v</ClosedNode>
+         <ClosedNode>/PS2TxBench E:|Git Repos|m0use-c0ntr0113|xproj|src|benches|PS2TxBench.v</ClosedNode>
+         <ClosedNode>/PS2TxShiftRegisterBench E:|Git Repos|m0use-c0ntr0113|xproj|src|benches|PS2TxShiftRegisterBench.v</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>E:/Git Repos/m0use-c0ntr0113/xproj/includes/amba/global.inc</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000020200000001000000010000006400000094000000020000000000000000000000000000000064ffffffff000000810000000000000002000000940000000100000000000000000000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>E:/Git Repos/m0use-c0ntr0113/xproj/includes/amba/global.inc</CurrentItem>
    </ItemView>
    <ItemView engineview="BehavioralSim" sourcetype="" guiview="Process" >
       <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
          <ClosedNode>Design Utilities</ClosedNode>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem>Add Existing Source</SelectedItem>
+         <SelectedItem></SelectedItem>
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000f8000000010000000100000000000000000000000064ffffffff000000810000000000000001000000f80000000100000000</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000ef000000010000000100000000000000000000000064ffffffff000000810000000000000001000000ef0000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
-      <CurrentItem>Add Existing Source</CurrentItem>
+      <CurrentItem></CurrentItem>
    </ItemView>
    <ItemView engineview="BehavioralSim" sourcetype="DESUT_VERILOG" guiview="Process" >
-      <ClosedNodes/>
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
       <SelectedItems>
-         <SelectedItem>Add Existing Source</SelectedItem>
+         <SelectedItem></SelectedItem>
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000f8000000010000000100000000000000000000000064ffffffff000000810000000000000001000000f80000000100000000</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000ef000000010000000100000000000000000000000064ffffffff000000810000000000000001000000ef0000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
-      <CurrentItem>Add Existing Source</CurrentItem>
+      <CurrentItem></CurrentItem>
    </ItemView>
    <ItemView engineview="SynthesisOnly" sourcetype="DESUT_BMM" guiview="Process" >
       <ClosedNodes/>
@@ -147,12 +158,12 @@
          <ClosedNode>User Constraints</ClosedNode>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem></SelectedItem>
+         <SelectedItem/>
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
       <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000101000000010000000100000000000000000000000064ffffffff000000810000000000000001000001010000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
-      <CurrentItem></CurrentItem>
+      <CurrentItem/>
    </ItemView>
 </Project>

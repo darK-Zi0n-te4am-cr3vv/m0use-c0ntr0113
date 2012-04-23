@@ -1,8 +1,8 @@
 INTSTYLE=ise
-INFILE=X:\Git Repos\m0use-c0ntr0113\xproj\ControllerTopmodule.ncd
-OUTFILE=X:\Git Repos\m0use-c0ntr0113\xproj\ControllerTopmodule.bit
+INFILE=E:\Git Repos\m0use-c0ntr0113\xproj\ControllerTopmodule.ncd
+OUTFILE=E:\Git Repos\m0use-c0ntr0113\xproj\ControllerTopmodule.bit
 FAMILY=Spartan3A and Spartan3AN
-PART=xc3s700an-5fgg484
-WORKINGDIR=X:\Git Repos\m0use-c0ntr0113\xproj
+PART=xc3s700an-4fgg484
+WORKINGDIR=E:\Git Repos\m0use-c0ntr0113\xproj
 LICENSE=ISE
 USER_INFO=No user information available.

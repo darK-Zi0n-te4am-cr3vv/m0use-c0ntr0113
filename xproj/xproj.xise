@@ -16,11 +16,11 @@
 
   <files>
     <file xil_pn:name="src/opencores/ps2.v" xil_pn:type="FILE_VERILOG">
-      <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="1"/>
+      <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="0"/>
       <association xil_pn:name="Implementation" xil_pn:seqID="1"/>
     </file>
     <file xil_pn:name="src/common/Clk.v" xil_pn:type="FILE_VERILOG">
-      <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="2"/>
+      <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="0"/>
       <association xil_pn:name="Implementation" xil_pn:seqID="0"/>
     </file>
     <file xil_pn:name="src/common/Timer.v" xil_pn:type="FILE_VERILOG">
@@ -32,59 +32,77 @@
       <association xil_pn:name="Implementation" xil_pn:seqID="0"/>
     </file>
     <file xil_pn:name="src/ps2/PS2TxByteParity.v" xil_pn:type="FILE_VERILOG">
-      <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="5"/>
+      <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="2"/>
       <association xil_pn:name="Implementation" xil_pn:seqID="0"/>
     </file>
     <file xil_pn:name="src/ps2/PS2TxShiftreg.v" xil_pn:type="FILE_VERILOG">
-      <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="6"/>
+      <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="1"/>
       <association xil_pn:name="Implementation" xil_pn:seqID="0"/>
     </file>
     <file xil_pn:name="src/benches/ClkBench.v" xil_pn:type="FILE_VERILOG">
-      <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="7"/>
+      <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="0"/>
       <association xil_pn:name="Implementation" xil_pn:seqID="0"/>
     </file>
     <file xil_pn:name="src/benches/PS2BpBench.v" xil_pn:type="FILE_VERILOG">
-      <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="8"/>
+      <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="0"/>
       <association xil_pn:name="Implementation" xil_pn:seqID="0"/>
     </file>
     <file xil_pn:name="src/benches/PS2OpencoresVersionBench.v" xil_pn:type="FILE_VERILOG">
-      <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="9"/>
+      <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="0"/>
       <association xil_pn:name="Implementation" xil_pn:seqID="0"/>
     </file>
     <file xil_pn:name="src/benches/PS2TxBench.v" xil_pn:type="FILE_VERILOG">
-      <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="10"/>
+      <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="0"/>
       <association xil_pn:name="Implementation" xil_pn:seqID="0"/>
     </file>
     <file xil_pn:name="src/benches/PS2TxShiftRegisterBench.v" xil_pn:type="FILE_VERILOG">
-      <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="11"/>
+      <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="0"/>
       <association xil_pn:name="Implementation" xil_pn:seqID="0"/>
     </file>
     <file xil_pn:name="src/ps2/PS2.v" xil_pn:type="FILE_VERILOG">
-      <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="12"/>
+      <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="6"/>
       <association xil_pn:name="Implementation" xil_pn:seqID="0"/>
     </file>
     <file xil_pn:name="src/ps2/PS2Rx.v" xil_pn:type="FILE_VERILOG">
-      <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="13"/>
+      <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="5"/>
       <association xil_pn:name="Implementation" xil_pn:seqID="0"/>
     </file>
     <file xil_pn:name="src/ControllerTopmodule.v" xil_pn:type="FILE_VERILOG">
-      <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="14"/>
+      <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="0"/>
       <association xil_pn:name="Implementation" xil_pn:seqID="3"/>
     </file>
     <file xil_pn:name="src/tests/PS2Test.v" xil_pn:type="FILE_VERILOG">
-      <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="15"/>
+      <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="7"/>
       <association xil_pn:name="Implementation" xil_pn:seqID="0"/>
     </file>
     <file xil_pn:name="src/cfg/map.ucf" xil_pn:type="FILE_UCF">
       <association xil_pn:name="Implementation" xil_pn:seqID="0"/>
     </file>
     <file xil_pn:name="src/tests/PS2OpencoresTest.v" xil_pn:type="FILE_VERILOG">
-      <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="65"/>
+      <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="0"/>
       <association xil_pn:name="Implementation" xil_pn:seqID="0"/>
     </file>
     <file xil_pn:name="src/opencores/MouseController.v" xil_pn:type="FILE_VERILOG">
-      <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="66"/>
+      <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="0"/>
       <association xil_pn:name="Implementation" xil_pn:seqID="2"/>
+    </file>
+    <file xil_pn:name="src/amba/alldev.v" xil_pn:type="FILE_VERILOG">
+      <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="76"/>
+      <association xil_pn:name="Implementation" xil_pn:seqID="76"/>
+    </file>
+    <file xil_pn:name="src/amba/alldev_tb.v" xil_pn:type="FILE_VERILOG">
+      <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="77"/>
+      <association xil_pn:name="PostMapSimulation" xil_pn:seqID="77"/>
+      <association xil_pn:name="PostRouteSimulation" xil_pn:seqID="77"/>
+      <association xil_pn:name="PostTranslateSimulation" xil_pn:seqID="77"/>
+    </file>
+    <file xil_pn:name="src/amba/master.v" xil_pn:type="FILE_VERILOG">
+      <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="78"/>
+      <association xil_pn:name="Implementation" xil_pn:seqID="78"/>
+    </file>
+    <file xil_pn:name="src/amba/slave.v" xil_pn:type="FILE_VERILOG">
+      <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="79"/>
+      <association xil_pn:name="Implementation" xil_pn:seqID="79"/>
     </file>
   </files>
 
@@ -108,8 +126,8 @@
     <property xil_pn:name="CLB Pack Factor Percentage" xil_pn:value="100" xil_pn:valueState="default"/>
     <property xil_pn:name="Case" xil_pn:value="Maintain" xil_pn:valueState="default"/>
     <property xil_pn:name="Case Implementation Style" xil_pn:value="None" xil_pn:valueState="default"/>
-    <property xil_pn:name="Change Device Speed To" xil_pn:value="-5" xil_pn:valueState="default"/>
-    <property xil_pn:name="Change Device Speed To Post Trace" xil_pn:value="-5" xil_pn:valueState="default"/>
+    <property xil_pn:name="Change Device Speed To" xil_pn:value="-4" xil_pn:valueState="default"/>
+    <property xil_pn:name="Change Device Speed To Post Trace" xil_pn:value="-4" xil_pn:valueState="default"/>
     <property xil_pn:name="Combinatorial Logic Optimization" xil_pn:value="false" xil_pn:valueState="default"/>
     <property xil_pn:name="Compile EDK Simulation Library" xil_pn:value="true" xil_pn:valueState="default"/>
     <property xil_pn:name="Compile SIMPRIM (Timing) Simulation Library" xil_pn:value="true" xil_pn:valueState="default"/>
@@ -139,7 +157,7 @@
     <property xil_pn:name="Delay Values To Be Read from SDF" xil_pn:value="Setup Time" xil_pn:valueState="default"/>
     <property xil_pn:name="Device" xil_pn:value="xc3s700an" xil_pn:valueState="non-default"/>
     <property xil_pn:name="Device Family" xil_pn:value="Spartan3A and Spartan3AN" xil_pn:valueState="non-default"/>
-    <property xil_pn:name="Device Speed Grade/Select ABS Minimum" xil_pn:value="-5" xil_pn:valueState="default"/>
+    <property xil_pn:name="Device Speed Grade/Select ABS Minimum" xil_pn:value="-4" xil_pn:valueState="default"/>
     <property xil_pn:name="Do Not Escape Signal and Instance Names in Netlist" xil_pn:value="false" xil_pn:valueState="default"/>
     <property xil_pn:name="Done (Output Events)" xil_pn:value="Default (4)" xil_pn:valueState="default"/>
     <property xil_pn:name="Drive Awake Pin During Suspend/Wake Sequence" xil_pn:value="false" xil_pn:valueState="default"/>
@@ -156,6 +174,7 @@
     <property xil_pn:name="Enable Power-On Reset Detection" xil_pn:value="true" xil_pn:valueState="default"/>
     <property xil_pn:name="Enable Suspend/Wake Global Set/Reset" xil_pn:value="false" xil_pn:valueState="default"/>
     <property xil_pn:name="Equivalent Register Removal XST" xil_pn:value="true" xil_pn:valueState="default"/>
+    <property xil_pn:name="Evaluation Development Board" xil_pn:value="Spartan-3AN Starter Kit" xil_pn:valueState="non-default"/>
     <property xil_pn:name="Exclude Compilation of Deprecated EDK Cores" xil_pn:value="true" xil_pn:valueState="default"/>
     <property xil_pn:name="Exclude Compilation of EDK Sub-Libraries" xil_pn:value="false" xil_pn:valueState="default"/>
     <property xil_pn:name="Extra Effort" xil_pn:value="None" xil_pn:valueState="default"/>
@@ -316,8 +335,8 @@
     <property xil_pn:name="Run for Specified Time Translate" xil_pn:value="true" xil_pn:valueState="default"/>
     <property xil_pn:name="Safe Implementation" xil_pn:value="No" xil_pn:valueState="default"/>
     <property xil_pn:name="Security" xil_pn:value="Enable Readback and Reconfiguration" xil_pn:valueState="default"/>
-    <property xil_pn:name="Selected Module Instance Name" xil_pn:value="/ps2_tx_sr_bench" xil_pn:valueState="non-default"/>
-    <property xil_pn:name="Selected Simulation Root Source Node Behavioral" xil_pn:value="work.ps2_tx_sr_bench" xil_pn:valueState="non-default"/>
+    <property xil_pn:name="Selected Module Instance Name" xil_pn:value="/alldev_tb" xil_pn:valueState="non-default"/>
+    <property xil_pn:name="Selected Simulation Root Source Node Behavioral" xil_pn:value="work.alldev_tb" xil_pn:valueState="non-default"/>
     <property xil_pn:name="Selected Simulation Root Source Node Post-Map" xil_pn:value="" xil_pn:valueState="default"/>
     <property xil_pn:name="Selected Simulation Root Source Node Post-Route" xil_pn:value="" xil_pn:valueState="default"/>
     <property xil_pn:name="Selected Simulation Root Source Node Post-Translate" xil_pn:value="" xil_pn:valueState="default"/>
@@ -333,11 +352,11 @@
     <property xil_pn:name="Slice Packing" xil_pn:value="true" xil_pn:valueState="default"/>
     <property xil_pn:name="Slice Utilization Ratio" xil_pn:value="100" xil_pn:valueState="default"/>
     <property xil_pn:name="Specify 'define Macro Name and Value" xil_pn:value="" xil_pn:valueState="default"/>
-    <property xil_pn:name="Specify Top Level Instance Names Behavioral" xil_pn:value="work.ps2_tx_sr_bench" xil_pn:valueState="default"/>
+    <property xil_pn:name="Specify Top Level Instance Names Behavioral" xil_pn:value="work.alldev_tb" xil_pn:valueState="default"/>
     <property xil_pn:name="Specify Top Level Instance Names Post-Map" xil_pn:value="Default" xil_pn:valueState="default"/>
     <property xil_pn:name="Specify Top Level Instance Names Post-Route" xil_pn:value="Default" xil_pn:valueState="default"/>
     <property xil_pn:name="Specify Top Level Instance Names Post-Translate" xil_pn:value="Default" xil_pn:valueState="default"/>
-    <property xil_pn:name="Speed Grade" xil_pn:value="-5" xil_pn:valueState="default"/>
+    <property xil_pn:name="Speed Grade" xil_pn:value="-4" xil_pn:valueState="non-default"/>
     <property xil_pn:name="Starting Placer Cost Table (1-100) Map" xil_pn:value="1" xil_pn:valueState="default"/>
     <property xil_pn:name="Starting Placer Cost Table (1-100) Par" xil_pn:value="1" xil_pn:valueState="default"/>
     <property xil_pn:name="Synthesis Tool" xil_pn:value="XST (VHDL/Verilog)" xil_pn:valueState="default"/>
@@ -385,7 +404,7 @@
     <!--                                                                                  -->
     <!-- The following properties are for internal use only. These should not be modified.-->
     <!--                                                                                  -->
-    <property xil_pn:name="PROP_BehavioralSimTop" xil_pn:value="Module|PS2TxBench" xil_pn:valueState="non-default"/>
+    <property xil_pn:name="PROP_BehavioralSimTop" xil_pn:value="Module|PS2Test" xil_pn:valueState="non-default"/>
     <property xil_pn:name="PROP_DesignName" xil_pn:value="xproj" xil_pn:valueState="non-default"/>
     <property xil_pn:name="PROP_DevFamilyPMName" xil_pn:value="spartan3a" xil_pn:valueState="default"/>
     <property xil_pn:name="PROP_FPGAConfiguration" xil_pn:value="FPGAConfiguration" xil_pn:valueState="default"/>
@@ -411,6 +430,7 @@
     <!-- Do not hand-edit this section, as it will be overwritten when the    -->
     <!-- project is analyzed based on files automatically identified as       -->
     <!-- include files.                                                       -->
+    <file xil_pn:name="src/amba/global.inc" xil_pn:type="FILE_VERILOG"/>
   </autoManagedFiles>
 
 </project>
