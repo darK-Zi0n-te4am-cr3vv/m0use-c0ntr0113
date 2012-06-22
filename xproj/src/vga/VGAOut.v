@@ -24,9 +24,9 @@ wire m_video_on;
 
 assign VideoOn = m_video_on;
 
-assign VGA_R = m_video_on ? RGB[11:8] : 4b'0000;
-assign VGA_G = m_video_on ? RGB[7:4]  : 4b'0000;
-assign VGA_B = m_video_on ? RGB[3:0]  : 4b'0000;
+assign VGA_R = m_video_on ? RGB[11:8] : 4'b0000;
+assign VGA_G = m_video_on ? RGB[7:4]  : 4'b0000;
+assign VGA_B = m_video_on ? RGB[3:0]  : 4'b0000;
 
 
 VGASync sync

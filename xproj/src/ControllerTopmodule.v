@@ -25,16 +25,7 @@ wire clk = CLK_50MHZ;
 
 
 wire [31:0] m_state;
-wire [2:0] m_rgb;
-
-assign m_rgb[2:0] = 3'b000;
-assign m_rgb[3] = m_state[3];
-
-assign m_rgb[4:6] = 3'b000;
-assign m_rgb[7] = m_state[4];
-
-assign m_rgb[8:10] = 3'b000;
-assign m_rgb[11] = m_state[0];
+wire [11:0] m_rgb = {{4{m_state[4]}}, {4{m_state[3]}}, {4{m_state[0]}}};
 
 wire 
 	m_pixel_tick,
@@ -61,7 +52,7 @@ VGAOut vgaout
 	.Reset(reset),
 	
 	.PixelTick(m_pixel_tick),
-	.VgaOn(m_vga_on),
+	.VideoOn(m_vga_on),
 	.PixelX(m_pixel_x),
 	.PixelY(m_pixel_y),
 	
