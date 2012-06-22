@@ -1,0 +1,23 @@
+Running: d:\Xilinx\13.3\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -o E:/Git Repos/m0use-c0ntr0113/xproj/alldev_tb_isim_beh.exe -prj E:/Git Repos/m0use-c0ntr0113/xproj/alldev_tb_beh.prj work.alldev_tb work.glbl 
+ISim O.76xd (signature 0xc3576ebc)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Analyzing Verilog file "E:/Git Repos/m0use-c0ntr0113/xproj/src/amba/slave.v" into library work
+Analyzing Verilog file "E:/Git Repos/m0use-c0ntr0113/xproj/src/amba/master.v" into library work
+Analyzing Verilog file "E:/Git Repos/m0use-c0ntr0113/xproj/src/amba/alldev.v" into library work
+Analyzing Verilog file "E:/Git Repos/m0use-c0ntr0113/xproj/src/amba/alldev_tb.v" into library work
+Analyzing Verilog file "d:/Xilinx/13.3/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling module master(ADDR_WIDTH=8,DATA_WIDTH=3...
+Compiling module slave(ADDR_WIDTH=8,DATA_WIDTH=32...
+Compiling module alldev
+Compiling module alldev_tb
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 5 Verilog Units
+Built simulation executable E:/Git Repos/m0use-c0ntr0113/xproj/alldev_tb_isim_beh.exe
+Fuse Memory Usage: 27748 KB
+Fuse CPU Usage: 514 ms

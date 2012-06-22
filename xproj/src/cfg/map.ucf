@@ -1,6 +1,6 @@
 # CLOCKS: period for 50 MHz oscillator (40%/60% duty-cycle)
 NET "CLK_50MHZ" LOC = "E12"| IOSTANDARD = LVCMOS33 ;
-NET "CLK_50MHZ" PERIOD = 20.0ns HIGH 40%;
+#NET "CLK_50MHZ" PERIOD = 20.0ns HIGH 40%;
 
 # Primary connection
 NET "PS2_CLK"  LOC = "W12" | IOSTANDARD = LVCMOS33 | DRIVE = 8 | SLEW = SLOW | PULLUP;

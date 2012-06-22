@@ -93,8 +93,9 @@ wire [31:0] x_increment = {{23{m_x_increment[8]}},m_x_increment} << scale_x;
 wire [31:0] y_increment = {{23{m_y_increment[8]}},m_y_increment} << scale_y;
 
 /* reading assigments */
-assign data_i = r_pos_x   ? pos_x :
-                r_pos_y   ? pos_y :
+assign data_i = 
+				r_pos_x   ? pos_x :
+            r_pos_y   ? pos_y :
 				r_state   ? m_status :
 				r_scale_x ? scale_x :
 				r_scale_y ? scale_y : 

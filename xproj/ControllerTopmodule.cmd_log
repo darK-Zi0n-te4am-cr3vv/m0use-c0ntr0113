@@ -1,0 +1,166 @@
+xst -intstyle ise -ifn "E:/Git Repos/m0use-c0ntr0113/xproj/ControllerTopmodule.xst" -ofn "E:/Git Repos/m0use-c0ntr0113/xproj/ControllerTopmodule.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "src/cfg/map.ucf" -p xc3s700an-fgg484-4 "ControllerTopmodule.ngc" ControllerTopmodule.ngd  
+map -intstyle ise -p xc3s700an-fgg484-4 -cm area -ir off -pr off -c 100 -o ControllerTopmodule_map.ncd ControllerTopmodule.ngd ControllerTopmodule.pcf 
+par -w -intstyle ise -ol high -t 1 ControllerTopmodule_map.ncd ControllerTopmodule.ncd ControllerTopmodule.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml ControllerTopmodule.twx ControllerTopmodule.ncd -o ControllerTopmodule.twr ControllerTopmodule.pcf 
+xst -intstyle ise -ifn "E:/Git Repos/m0use-c0ntr0113/xproj/ControllerTopmodule.xst" -ofn "E:/Git Repos/m0use-c0ntr0113/xproj/ControllerTopmodule.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "src/cfg/map.ucf" -p xc3s700an-fgg484-4 "ControllerTopmodule.ngc" ControllerTopmodule.ngd  
+map -intstyle ise -p xc3s700an-fgg484-4 -cm area -ir off -pr off -c 100 -o ControllerTopmodule_map.ncd ControllerTopmodule.ngd ControllerTopmodule.pcf 
+par -w -intstyle ise -ol high -t 1 ControllerTopmodule_map.ncd ControllerTopmodule.ncd ControllerTopmodule.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml ControllerTopmodule.twx ControllerTopmodule.ncd -o ControllerTopmodule.twr ControllerTopmodule.pcf 
+xst -intstyle ise -ifn "E:/Git Repos/m0use-c0ntr0113/xproj/ControllerTopmodule.xst" -ofn "E:/Git Repos/m0use-c0ntr0113/xproj/ControllerTopmodule.syr" 
+xst -intstyle ise -ifn "E:/Git Repos/m0use-c0ntr0113/xproj/ControllerTopmodule.xst" -ofn "E:/Git Repos/m0use-c0ntr0113/xproj/ControllerTopmodule.syr" 
+xst -intstyle ise -ifn "E:/Git Repos/m0use-c0ntr0113/xproj/ControllerTopmodule.xst" -ofn "E:/Git Repos/m0use-c0ntr0113/xproj/ControllerTopmodule.syr" 
+xst -intstyle ise -ifn "E:/Git Repos/m0use-c0ntr0113/xproj/ControllerTopmodule.xst" -ofn "E:/Git Repos/m0use-c0ntr0113/xproj/ControllerTopmodule.syr" 
+xst -intstyle ise -ifn "E:/Git Repos/m0use-c0ntr0113/xproj/ControllerTopmodule.xst" -ofn "E:/Git Repos/m0use-c0ntr0113/xproj/ControllerTopmodule.syr" 
+xst -intstyle ise -ifn "E:/Git Repos/m0use-c0ntr0113/xproj/ControllerTopmodule.xst" -ofn "E:/Git Repos/m0use-c0ntr0113/xproj/ControllerTopmodule.syr" 
+xst -intstyle ise -ifn "E:/Git Repos/m0use-c0ntr0113/xproj/ControllerTopmodule.xst" -ofn "E:/Git Repos/m0use-c0ntr0113/xproj/ControllerTopmodule.syr" 
+xst -intstyle ise -ifn "E:/Git Repos/m0use-c0ntr0113/xproj/ControllerTopmodule.xst" -ofn "E:/Git Repos/m0use-c0ntr0113/xproj/ControllerTopmodule.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "src/cfg/map.ucf" -p xc3s700an-fgg484-4 "ControllerTopmodule.ngc" ControllerTopmodule.ngd  
+map -intstyle ise -p xc3s700an-fgg484-4 -cm area -ir off -pr off -c 100 -o ControllerTopmodule_map.ncd ControllerTopmodule.ngd ControllerTopmodule.pcf 
+par -w -intstyle ise -ol high -t 1 ControllerTopmodule_map.ncd ControllerTopmodule.ncd ControllerTopmodule.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml ControllerTopmodule.twx ControllerTopmodule.ncd -o ControllerTopmodule.twr ControllerTopmodule.pcf 
+bitgen -intstyle ise -f ControllerTopmodule.ut ControllerTopmodule.ncd 
+xst -intstyle ise -ifn "E:/Git Repos/m0use-c0ntr0113/xproj/ControllerTopmodule.xst" -ofn "E:/Git Repos/m0use-c0ntr0113/xproj/ControllerTopmodule.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "src/cfg/map.ucf" -p xc3s700an-fgg484-4 "ControllerTopmodule.ngc" ControllerTopmodule.ngd  
+map -intstyle ise -p xc3s700an-fgg484-4 -cm area -ir off -pr off -c 100 -o ControllerTopmodule_map.ncd ControllerTopmodule.ngd ControllerTopmodule.pcf 
+par -w -intstyle ise -ol high -t 1 ControllerTopmodule_map.ncd ControllerTopmodule.ncd ControllerTopmodule.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml ControllerTopmodule.twx ControllerTopmodule.ncd -o ControllerTopmodule.twr ControllerTopmodule.pcf 
+bitgen -intstyle ise -f ControllerTopmodule.ut ControllerTopmodule.ncd 
+xst -intstyle ise -ifn "E:/Git Repos/m0use-c0ntr0113/xproj/ControllerTopmodule.xst" -ofn "E:/Git Repos/m0use-c0ntr0113/xproj/ControllerTopmodule.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "src/cfg/map.ucf" -p xc3s700an-fgg484-4 "ControllerTopmodule.ngc" ControllerTopmodule.ngd  
+map -intstyle ise -p xc3s700an-fgg484-4 -cm area -ir off -pr off -c 100 -o ControllerTopmodule_map.ncd ControllerTopmodule.ngd ControllerTopmodule.pcf 
+par -w -intstyle ise -ol high -t 1 ControllerTopmodule_map.ncd ControllerTopmodule.ncd ControllerTopmodule.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml ControllerTopmodule.twx ControllerTopmodule.ncd -o ControllerTopmodule.twr ControllerTopmodule.pcf 
+xst -intstyle ise -ifn "E:/Git Repos/m0use-c0ntr0113/xproj/ControllerTopmodule.xst" -ofn "E:/Git Repos/m0use-c0ntr0113/xproj/ControllerTopmodule.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "src/cfg/map.ucf" -p xc3s700an-fgg484-4 "ControllerTopmodule.ngc" ControllerTopmodule.ngd  
+map -intstyle ise -p xc3s700an-fgg484-4 -cm area -ir off -pr off -c 100 -o ControllerTopmodule_map.ncd ControllerTopmodule.ngd ControllerTopmodule.pcf 
+par -w -intstyle ise -ol high -t 1 ControllerTopmodule_map.ncd ControllerTopmodule.ncd ControllerTopmodule.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml ControllerTopmodule.twx ControllerTopmodule.ncd -o ControllerTopmodule.twr ControllerTopmodule.pcf 
+bitgen -intstyle ise -f ControllerTopmodule.ut ControllerTopmodule.ncd 
+xst -intstyle ise -ifn "E:/Git Repos/m0use-c0ntr0113/xproj/ControllerTopmodule.xst" -ofn "E:/Git Repos/m0use-c0ntr0113/xproj/ControllerTopmodule.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "src/cfg/map.ucf" -p xc3s700an-fgg484-4 "ControllerTopmodule.ngc" ControllerTopmodule.ngd  
+map -intstyle ise -p xc3s700an-fgg484-4 -cm area -ir off -pr off -c 100 -o ControllerTopmodule_map.ncd ControllerTopmodule.ngd ControllerTopmodule.pcf 
+par -w -intstyle ise -ol high -t 1 ControllerTopmodule_map.ncd ControllerTopmodule.ncd ControllerTopmodule.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml ControllerTopmodule.twx ControllerTopmodule.ncd -o ControllerTopmodule.twr ControllerTopmodule.pcf 
+xst -intstyle ise -ifn "E:/Git Repos/m0use-c0ntr0113/xproj/ControllerTopmodule.xst" -ofn "E:/Git Repos/m0use-c0ntr0113/xproj/ControllerTopmodule.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "src/cfg/map.ucf" -p xc3s700an-fgg484-4 "ControllerTopmodule.ngc" ControllerTopmodule.ngd  
+map -intstyle ise -p xc3s700an-fgg484-4 -cm area -ir off -pr off -c 100 -o ControllerTopmodule_map.ncd ControllerTopmodule.ngd ControllerTopmodule.pcf 
+par -w -intstyle ise -ol high -t 1 ControllerTopmodule_map.ncd ControllerTopmodule.ncd ControllerTopmodule.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml ControllerTopmodule.twx ControllerTopmodule.ncd -o ControllerTopmodule.twr ControllerTopmodule.pcf 
+xst -intstyle ise -ifn "E:/Git Repos/m0use-c0ntr0113/xproj/ControllerTopmodule.xst" -ofn "E:/Git Repos/m0use-c0ntr0113/xproj/ControllerTopmodule.syr" 
+xst -intstyle ise -ifn "E:/Git Repos/m0use-c0ntr0113/xproj/ControllerTopmodule.xst" -ofn "E:/Git Repos/m0use-c0ntr0113/xproj/ControllerTopmodule.syr" 
+xst -intstyle ise -ifn "E:/Git Repos/m0use-c0ntr0113/xproj/ControllerTopmodule.xst" -ofn "E:/Git Repos/m0use-c0ntr0113/xproj/ControllerTopmodule.syr" 
+xst -intstyle ise -ifn "E:/Git Repos/m0use-c0ntr0113/xproj/ControllerTopmodule.xst" -ofn "E:/Git Repos/m0use-c0ntr0113/xproj/ControllerTopmodule.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "src/cfg/map.ucf" -p xc3s700an-fgg484-4 "ControllerTopmodule.ngc" ControllerTopmodule.ngd  
+map -intstyle ise -p xc3s700an-fgg484-4 -cm area -ir off -pr off -c 100 -o ControllerTopmodule_map.ncd ControllerTopmodule.ngd ControllerTopmodule.pcf 
+par -w -intstyle ise -ol high -t 1 ControllerTopmodule_map.ncd ControllerTopmodule.ncd ControllerTopmodule.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml ControllerTopmodule.twx ControllerTopmodule.ncd -o ControllerTopmodule.twr ControllerTopmodule.pcf 
+bitgen -intstyle ise -f ControllerTopmodule.ut ControllerTopmodule.ncd 
+xst -intstyle ise -ifn "E:/Git Repos/m0use-c0ntr0113/xproj/ControllerTopmodule.xst" -ofn "E:/Git Repos/m0use-c0ntr0113/xproj/ControllerTopmodule.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "src/cfg/map.ucf" -p xc3s700an-fgg484-4 "ControllerTopmodule.ngc" ControllerTopmodule.ngd  
+map -intstyle ise -p xc3s700an-fgg484-4 -cm area -ir off -pr off -c 100 -o ControllerTopmodule_map.ncd ControllerTopmodule.ngd ControllerTopmodule.pcf 
+par -w -intstyle ise -ol high -t 1 ControllerTopmodule_map.ncd ControllerTopmodule.ncd ControllerTopmodule.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml ControllerTopmodule.twx ControllerTopmodule.ncd -o ControllerTopmodule.twr ControllerTopmodule.pcf 
+bitgen -intstyle ise -f ControllerTopmodule.ut ControllerTopmodule.ncd 
+xst -intstyle ise -ifn "E:/Git Repos/m0use-c0ntr0113/xproj/ControllerTopmodule.xst" -ofn "E:/Git Repos/m0use-c0ntr0113/xproj/ControllerTopmodule.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "src/cfg/map.ucf" -p xc3s700an-fgg484-4 "ControllerTopmodule.ngc" ControllerTopmodule.ngd  
+map -intstyle ise -p xc3s700an-fgg484-4 -cm area -ir off -pr off -c 100 -o ControllerTopmodule_map.ncd ControllerTopmodule.ngd ControllerTopmodule.pcf 
+par -w -intstyle ise -ol high -t 1 ControllerTopmodule_map.ncd ControllerTopmodule.ncd ControllerTopmodule.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml ControllerTopmodule.twx ControllerTopmodule.ncd -o ControllerTopmodule.twr ControllerTopmodule.pcf 
+bitgen -intstyle ise -f ControllerTopmodule.ut ControllerTopmodule.ncd 
+xst -intstyle ise -ifn "E:/Git Repos/m0use-c0ntr0113/xproj/ControllerTopmodule.xst" -ofn "E:/Git Repos/m0use-c0ntr0113/xproj/ControllerTopmodule.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "src/cfg/map.ucf" -p xc3s700an-fgg484-4 "ControllerTopmodule.ngc" ControllerTopmodule.ngd  
+map -intstyle ise -p xc3s700an-fgg484-4 -cm area -ir off -pr off -c 100 -o ControllerTopmodule_map.ncd ControllerTopmodule.ngd ControllerTopmodule.pcf 
+par -w -intstyle ise -ol high -t 1 ControllerTopmodule_map.ncd ControllerTopmodule.ncd ControllerTopmodule.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml ControllerTopmodule.twx ControllerTopmodule.ncd -o ControllerTopmodule.twr ControllerTopmodule.pcf 
+bitgen -intstyle ise -f ControllerTopmodule.ut ControllerTopmodule.ncd 
+xst -intstyle ise -ifn "E:/Git Repos/m0use-c0ntr0113/xproj/ControllerTopmodule.xst" -ofn "E:/Git Repos/m0use-c0ntr0113/xproj/ControllerTopmodule.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "src/cfg/map.ucf" -p xc3s700an-fgg484-4 "ControllerTopmodule.ngc" ControllerTopmodule.ngd  
+map -intstyle ise -p xc3s700an-fgg484-4 -cm area -ir off -pr off -c 100 -o ControllerTopmodule_map.ncd ControllerTopmodule.ngd ControllerTopmodule.pcf 
+par -w -intstyle ise -ol high -t 1 ControllerTopmodule_map.ncd ControllerTopmodule.ncd ControllerTopmodule.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml ControllerTopmodule.twx ControllerTopmodule.ncd -o ControllerTopmodule.twr ControllerTopmodule.pcf 
+bitgen -intstyle ise -f ControllerTopmodule.ut ControllerTopmodule.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "src/cfg/map.ucf" -p xc3s700an-fgg484-4 "ControllerTopmodule.ngc" ControllerTopmodule.ngd  
+map -intstyle ise -p xc3s700an-fgg484-4 -cm area -ir off -pr off -c 100 -o ControllerTopmodule_map.ncd ControllerTopmodule.ngd ControllerTopmodule.pcf 
+par -w -intstyle ise -ol high -t 1 ControllerTopmodule_map.ncd ControllerTopmodule.ncd ControllerTopmodule.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml ControllerTopmodule.twx ControllerTopmodule.ncd -o ControllerTopmodule.twr ControllerTopmodule.pcf 
+bitgen -intstyle ise -f ControllerTopmodule.ut ControllerTopmodule.ncd 
+xst -intstyle ise -ifn "E:/Git Repos/m0use-c0ntr0113/xproj/ControllerTopmodule.xst" -ofn "E:/Git Repos/m0use-c0ntr0113/xproj/ControllerTopmodule.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "src/cfg/map.ucf" -p xc3s700an-fgg484-4 "ControllerTopmodule.ngc" ControllerTopmodule.ngd  
+map -intstyle ise -p xc3s700an-fgg484-4 -cm area -ir off -pr off -c 100 -o ControllerTopmodule_map.ncd ControllerTopmodule.ngd ControllerTopmodule.pcf 
+par -w -intstyle ise -ol high -t 1 ControllerTopmodule_map.ncd ControllerTopmodule.ncd ControllerTopmodule.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml ControllerTopmodule.twx ControllerTopmodule.ncd -o ControllerTopmodule.twr ControllerTopmodule.pcf 
+xst -intstyle ise -ifn "E:/Git Repos/m0use-c0ntr0113/xproj/ControllerTopmodule.xst" -ofn "E:/Git Repos/m0use-c0ntr0113/xproj/ControllerTopmodule.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "src/cfg/map.ucf" -p xc3s700an-fgg484-4 "ControllerTopmodule.ngc" ControllerTopmodule.ngd  
+map -intstyle ise -p xc3s700an-fgg484-4 -cm area -ir off -pr off -c 100 -o ControllerTopmodule_map.ncd ControllerTopmodule.ngd ControllerTopmodule.pcf 
+par -w -intstyle ise -ol high -t 1 ControllerTopmodule_map.ncd ControllerTopmodule.ncd ControllerTopmodule.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml ControllerTopmodule.twx ControllerTopmodule.ncd -o ControllerTopmodule.twr ControllerTopmodule.pcf 
+bitgen -intstyle ise -f ControllerTopmodule.ut ControllerTopmodule.ncd 
+xst -intstyle ise -ifn "E:/Git Repos/m0use-c0ntr0113/xproj/ControllerTopmodule.xst" -ofn "E:/Git Repos/m0use-c0ntr0113/xproj/ControllerTopmodule.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "src/cfg/map.ucf" -p xc3s700an-fgg484-4 "ControllerTopmodule.ngc" ControllerTopmodule.ngd  
+map -intstyle ise -p xc3s700an-fgg484-4 -cm area -ir off -pr off -c 100 -o ControllerTopmodule_map.ncd ControllerTopmodule.ngd ControllerTopmodule.pcf 
+par -w -intstyle ise -ol high -t 1 ControllerTopmodule_map.ncd ControllerTopmodule.ncd ControllerTopmodule.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml ControllerTopmodule.twx ControllerTopmodule.ncd -o ControllerTopmodule.twr ControllerTopmodule.pcf 
+bitgen -intstyle ise -f ControllerTopmodule.ut ControllerTopmodule.ncd 
+xst -intstyle ise -ifn "E:/Git Repos/m0use-c0ntr0113/xproj/ControllerTopmodule.xst" -ofn "E:/Git Repos/m0use-c0ntr0113/xproj/ControllerTopmodule.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "src/cfg/map.ucf" -p xc3s700an-fgg484-4 "ControllerTopmodule.ngc" ControllerTopmodule.ngd  
+map -intstyle ise -p xc3s700an-fgg484-4 -cm area -ir off -pr off -c 100 -o ControllerTopmodule_map.ncd ControllerTopmodule.ngd ControllerTopmodule.pcf 
+par -w -intstyle ise -ol high -t 1 ControllerTopmodule_map.ncd ControllerTopmodule.ncd ControllerTopmodule.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml ControllerTopmodule.twx ControllerTopmodule.ncd -o ControllerTopmodule.twr ControllerTopmodule.pcf 
+bitgen -intstyle ise -f ControllerTopmodule.ut ControllerTopmodule.ncd 
+xst -intstyle ise -ifn "E:/Git Repos/m0use-c0ntr0113/xproj/ControllerTopmodule.xst" -ofn "E:/Git Repos/m0use-c0ntr0113/xproj/ControllerTopmodule.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "src/cfg/map.ucf" -p xc3s700an-fgg484-4 "ControllerTopmodule.ngc" ControllerTopmodule.ngd  
+map -intstyle ise -p xc3s700an-fgg484-4 -cm area -ir off -pr off -c 100 -o ControllerTopmodule_map.ncd ControllerTopmodule.ngd ControllerTopmodule.pcf 
+par -w -intstyle ise -ol high -t 1 ControllerTopmodule_map.ncd ControllerTopmodule.ncd ControllerTopmodule.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml ControllerTopmodule.twx ControllerTopmodule.ncd -o ControllerTopmodule.twr ControllerTopmodule.pcf 
+bitgen -intstyle ise -f ControllerTopmodule.ut ControllerTopmodule.ncd 
+xst -intstyle ise -ifn "E:/Git Repos/m0use-c0ntr0113/xproj/ControllerTopmodule.xst" -ofn "E:/Git Repos/m0use-c0ntr0113/xproj/ControllerTopmodule.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "src/cfg/map.ucf" -p xc3s700an-fgg484-4 "ControllerTopmodule.ngc" ControllerTopmodule.ngd  
+map -intstyle ise -p xc3s700an-fgg484-4 -cm area -ir off -pr off -c 100 -o ControllerTopmodule_map.ncd ControllerTopmodule.ngd ControllerTopmodule.pcf 
+par -w -intstyle ise -ol high -t 1 ControllerTopmodule_map.ncd ControllerTopmodule.ncd ControllerTopmodule.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml ControllerTopmodule.twx ControllerTopmodule.ncd -o ControllerTopmodule.twr ControllerTopmodule.pcf 
+bitgen -intstyle ise -f ControllerTopmodule.ut ControllerTopmodule.ncd 
+xst -intstyle ise -ifn "E:/Git Repos/m0use-c0ntr0113/xproj/ControllerTopmodule.xst" -ofn "E:/Git Repos/m0use-c0ntr0113/xproj/ControllerTopmodule.syr" 
+xst -intstyle ise -ifn "E:/Git Repos/m0use-c0ntr0113/xproj/ControllerTopmodule.xst" -ofn "E:/Git Repos/m0use-c0ntr0113/xproj/ControllerTopmodule.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "src/cfg/map.ucf" -p xc3s700an-fgg484-4 "ControllerTopmodule.ngc" ControllerTopmodule.ngd  
+map -intstyle ise -p xc3s700an-fgg484-4 -cm area -ir off -pr off -c 100 -o ControllerTopmodule_map.ncd ControllerTopmodule.ngd ControllerTopmodule.pcf 
+par -w -intstyle ise -ol high -t 1 ControllerTopmodule_map.ncd ControllerTopmodule.ncd ControllerTopmodule.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml ControllerTopmodule.twx ControllerTopmodule.ncd -o ControllerTopmodule.twr ControllerTopmodule.pcf 
+bitgen -intstyle ise -f ControllerTopmodule.ut ControllerTopmodule.ncd 
+xst -intstyle ise -ifn "E:/Git Repos/m0use-c0ntr0113/xproj/ControllerTopmodule.xst" -ofn "E:/Git Repos/m0use-c0ntr0113/xproj/ControllerTopmodule.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "src/cfg/map.ucf" -p xc3s700an-fgg484-4 "ControllerTopmodule.ngc" ControllerTopmodule.ngd  
+map -intstyle ise -p xc3s700an-fgg484-4 -cm area -ir off -pr off -c 100 -o ControllerTopmodule_map.ncd ControllerTopmodule.ngd ControllerTopmodule.pcf 
+par -w -intstyle ise -ol high -t 1 ControllerTopmodule_map.ncd ControllerTopmodule.ncd ControllerTopmodule.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml ControllerTopmodule.twx ControllerTopmodule.ncd -o ControllerTopmodule.twr ControllerTopmodule.pcf 
+bitgen -intstyle ise -f ControllerTopmodule.ut ControllerTopmodule.ncd 
+xst -intstyle ise -ifn "E:/Git Repos/m0use-c0ntr0113/xproj/ControllerTopmodule.xst" -ofn "E:/Git Repos/m0use-c0ntr0113/xproj/ControllerTopmodule.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "src/cfg/map.ucf" -p xc3s700an-fgg484-4 "ControllerTopmodule.ngc" ControllerTopmodule.ngd  
+map -intstyle ise -p xc3s700an-fgg484-4 -cm area -ir off -pr off -c 100 -o ControllerTopmodule_map.ncd ControllerTopmodule.ngd ControllerTopmodule.pcf 
+par -w -intstyle ise -ol high -t 1 ControllerTopmodule_map.ncd ControllerTopmodule.ncd ControllerTopmodule.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml ControllerTopmodule.twx ControllerTopmodule.ncd -o ControllerTopmodule.twr ControllerTopmodule.pcf 
+bitgen -intstyle ise -f ControllerTopmodule.ut ControllerTopmodule.ncd 
+xst -intstyle ise -ifn "E:/Git Repos/m0use-c0ntr0113/xproj/ControllerTopmodule.xst" -ofn "E:/Git Repos/m0use-c0ntr0113/xproj/ControllerTopmodule.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "src/cfg/map.ucf" -p xc3s700an-fgg484-4 "ControllerTopmodule.ngc" ControllerTopmodule.ngd  
+map -intstyle ise -p xc3s700an-fgg484-4 -cm area -ir off -pr off -c 100 -o ControllerTopmodule_map.ncd ControllerTopmodule.ngd ControllerTopmodule.pcf 
+par -w -intstyle ise -ol high -t 1 ControllerTopmodule_map.ncd ControllerTopmodule.ncd ControllerTopmodule.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml ControllerTopmodule.twx ControllerTopmodule.ncd -o ControllerTopmodule.twr ControllerTopmodule.pcf 
+bitgen -intstyle ise -f ControllerTopmodule.ut ControllerTopmodule.ncd 
+xst -intstyle ise -ifn "E:/Git Repos/m0use-c0ntr0113/xproj/ControllerTopmodule.xst" -ofn "E:/Git Repos/m0use-c0ntr0113/xproj/ControllerTopmodule.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "src/cfg/map.ucf" -p xc3s700an-fgg484-4 "ControllerTopmodule.ngc" ControllerTopmodule.ngd  
+map -intstyle ise -p xc3s700an-fgg484-4 -cm area -ir off -pr off -c 100 -o ControllerTopmodule_map.ncd ControllerTopmodule.ngd ControllerTopmodule.pcf 
+par -w -intstyle ise -ol high -t 1 ControllerTopmodule_map.ncd ControllerTopmodule.ncd ControllerTopmodule.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml ControllerTopmodule.twx ControllerTopmodule.ncd -o ControllerTopmodule.twr ControllerTopmodule.pcf 
+bitgen -intstyle ise -f ControllerTopmodule.ut ControllerTopmodule.ncd 
+xst -intstyle ise -ifn "E:/Git Repos/m0use-c0ntr0113/xproj/ControllerTopmodule.xst" -ofn "E:/Git Repos/m0use-c0ntr0113/xproj/ControllerTopmodule.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "src/cfg/map.ucf" -p xc3s700an-fgg484-4 "ControllerTopmodule.ngc" ControllerTopmodule.ngd  
+map -intstyle ise -p xc3s700an-fgg484-4 -cm area -ir off -pr off -c 100 -o ControllerTopmodule_map.ncd ControllerTopmodule.ngd ControllerTopmodule.pcf 
+par -w -intstyle ise -ol high -t 1 ControllerTopmodule_map.ncd ControllerTopmodule.ncd ControllerTopmodule.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml ControllerTopmodule.twx ControllerTopmodule.ncd -o ControllerTopmodule.twr ControllerTopmodule.pcf 
+bitgen -intstyle ise -f ControllerTopmodule.ut ControllerTopmodule.ncd 
+xst -intstyle ise -ifn "E:/Git Repos/m0use-c0ntr0113/xproj/ControllerTopmodule.xst" -ofn "E:/Git Repos/m0use-c0ntr0113/xproj/ControllerTopmodule.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "src/cfg/map.ucf" -p xc3s700an-fgg484-4 "ControllerTopmodule.ngc" ControllerTopmodule.ngd  
+map -intstyle ise -p xc3s700an-fgg484-4 -cm area -ir off -pr off -c 100 -o ControllerTopmodule_map.ncd ControllerTopmodule.ngd ControllerTopmodule.pcf 
+par -w -intstyle ise -ol high -t 1 ControllerTopmodule_map.ncd ControllerTopmodule.ncd ControllerTopmodule.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml ControllerTopmodule.twx ControllerTopmodule.ncd -o ControllerTopmodule.twr ControllerTopmodule.pcf 
+bitgen -intstyle ise -f ControllerTopmodule.ut ControllerTopmodule.ncd 

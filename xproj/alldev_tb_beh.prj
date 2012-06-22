@@ -1,0 +1,5 @@
+verilog work "src/amba/slave.v"
+verilog work "src/amba/master.v"
+verilog work "src/amba/alldev.v"
+verilog work "src/amba/alldev_tb.v"
+verilog work "d:/Xilinx/13.3/ISE_DS/ISE//verilog/src/glbl.v"
