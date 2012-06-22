@@ -1,1 +1,0 @@
--intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -o "E:/Git Repos/m0use-c0ntr0113/xproj/alldev_tb_isim_beh.exe" -prj "E:/Git Repos/m0use-c0ntr0113/xproj/alldev_tb_beh.prj" "work.alldev_tb" "work.glbl" 

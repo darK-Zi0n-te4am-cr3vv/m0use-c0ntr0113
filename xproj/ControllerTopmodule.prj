@@ -1,7 +1,0 @@
-verilog work "src/opencores/ps2.v"
-verilog work "src/opencores/PS2MouseInterfaceAdapter.v"
-verilog work "src/opencores/PS2MouseRegisters.v"
-verilog work "src/opencores/PS2ControllerAmba.v"
-verilog work "src/opencores/AmbaMaster.v"
-verilog work "src/opencores/MasterSlave.v"
-verilog work "src/ControllerTopmodule.v"
