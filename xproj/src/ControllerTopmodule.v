@@ -12,9 +12,9 @@ module ControllerTopmodule
 	
 	output wire [7:0] LED,
 	
-	output wire VGA_R,
-	output wire VGA_G,
-	output wire VGA_B,
+	output wire [3:0] VGA_R,
+	output wire [3:0] VGA_G,
+	output wire [3:0] VGA_B,
 	
 	output wire VGA_HS,
 	output wire VGA_VS
@@ -27,9 +27,14 @@ wire clk = CLK_50MHZ;
 wire [31:0] m_state;
 wire [2:0] m_rgb;
 
-assign m_rgb[0] = m_state[3];
-assign m_rgb[1] = m_state[4];
-assign m_rgb[2] = m_state[0];
+assign m_rgb[2:0] = 3'b000;
+assign m_rgb[3] = m_state[3];
+
+assign m_rgb[4:6] = 3'b000;
+assign m_rgb[7] = m_state[4];
+
+assign m_rgb[8:10] = 3'b000;
+assign m_rgb[11] = m_state[0];
 
 wire 
 	m_pixel_tick,

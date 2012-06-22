@@ -9,12 +9,12 @@ module VGAOut
 	output wire [9:0] PixelX,
 	output wire [9:0] PixelY,
 	
-	input wire [2:0] RGB,
+	input wire [11:0] RGB,
 	
 	/* vga lines */
-	output wire VGA_R,
-	output wire VGA_G,
-	output wire VGA_B,
+	output wire [3:0] VGA_R,
+	output wire [3:0] VGA_G,
+	output wire [3:0] VGA_B,
 	
 	output wire VGA_HS,
 	output wire VGA_VS
@@ -24,9 +24,9 @@ wire m_video_on;
 
 assign VideoOn = m_video_on;
 
-assign VGA_R = m_video_on ? RGB[2] : 1b'0;
-assign VGA_G = m_video_on ? RGB[1] : 1b'0;
-assign VGA_B = m_video_on ? RGB[0] : 1b'0;
+assign VGA_R = m_video_on ? RGB[11:8] : 4b'0000;
+assign VGA_G = m_video_on ? RGB[7:4]  : 4b'0000;
+assign VGA_B = m_video_on ? RGB[3:0]  : 4b'0000;
 
 
 VGASync sync
