@@ -136,12 +136,16 @@ begin
 		
 			a_pos_x :
 			begin
-				r_pos_x <= DataIn;
+				r_pos_x <= r_scale_x[5] ? 
+					r_pos_x << r_scale_x[4:0] :  
+					r_pos_x >> r_scale_x[4:0] ;
 			end
 		
 			a_pos_y :
 			begin
-				r_pos_y <= DataIn;
+				r_pos_y <= r_scale_y[5] ? 
+					DataIn << r_scale_y[4:0] :  
+					Datain >> r_scale_y[4:0] ;
 			end
 			
 			a_scale_x :
