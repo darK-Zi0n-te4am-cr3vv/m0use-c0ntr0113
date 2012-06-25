@@ -25,7 +25,7 @@ wire clk = CLK_50MHZ;
 
 
 wire [31:0] m_state;
-wire [11:0] m_rgb = {{4{m_state[4]}}, {4{m_state[3]}}, {4{m_state[0]}}};
+wire [11:0] m_rgb = {{4{m_state[2]}}, {4{m_state[1]}}, {4{m_state[0]}}};
 
 wire 
 	m_pixel_tick,
@@ -36,6 +36,16 @@ wire [9:0]
 	m_pixel_x,
 	m_pixel_y
 ;
+
+
+reg [23:0] clkc;
+
+always @(posedge clk)
+begin
+	clkc <= clkc + 1;
+end 
+
+assign LED[7:0] = m_state[7:0];
 
 MasterSlave mc
 (

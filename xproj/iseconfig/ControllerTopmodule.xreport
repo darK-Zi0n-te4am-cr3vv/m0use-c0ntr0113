@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
-  <DateModified>2012-06-24T23:39:07</DateModified>
+  <DateModified>2012-06-25T15:27:03</DateModified>
   <ModuleName>ControllerTopmodule</ModuleName>
   <SummaryTimeStamp>Unknown</SummaryTimeStamp>
-  <SavedFilePath>D:/Projects/m0use-c0ntr0113/xproj/iseconfig/ControllerTopmodule.xreport</SavedFilePath>
-  <ImplementationReportsDirectory>D:/Projects/m0use-c0ntr0113/xproj\</ImplementationReportsDirectory>
+  <SavedFilePath>C:/Users/stud/repos/m0use-c0ntr0113/xproj/iseconfig/ControllerTopmodule.xreport</SavedFilePath>
+  <ImplementationReportsDirectory>C:/Users/stud/repos/m0use-c0ntr0113/xproj\</ImplementationReportsDirectory>
   <DateInitialized>2012-06-23T01:45:07</DateInitialized>
   <EnableMessageFiltering>false</EnableMessageFiltering>
  </header>
